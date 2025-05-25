@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Plaka ve Araç Tipi Tespiti</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #1e3c72;
+      color: white;
+      padding: 20px 0;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .container {
+      margin-top: 30px;
+      width: 90%;
+      max-width: 720px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      max-height: 400px;
+      border-radius: 8px;
+      border: 2px solid #ccc;
+    }
+
+    .plate-box {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #fef3c7;
+      border-left: 6px solid #f59e0b;
+      font-size: 18px;
+      color: #92400e;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 10px;
+      text-align: center;
+      color: #555;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Plaka ve Araç Tespiti Sistemi</h1>
+  </header>
+
+  <div class="container">
+    <img src="{{ url_for('video_feed') }}" alt="Canlı Kamera Görüntüsü">
+    
+  </div>
+
+  <footer>
+    © 2025 Meral Kara - Bilgisayar Mühendisliği Bilgisayarlı Görü Vizesi
+  </footer>
+
+</body>
+</html>

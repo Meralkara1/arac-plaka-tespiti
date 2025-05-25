@@ -1,0 +1,6 @@
+train: C:/araba_kamyon/train/images
+val: C:/araba_kamyon/valid/images
+test: C:/araba_kamyon/test/images
+
+nc: 3
+names: ['araba', 'kamyonet', 'plaka']

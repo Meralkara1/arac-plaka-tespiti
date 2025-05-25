@@ -107,19 +107,18 @@ Aşağıdaki videolarda sistemin gerçek araçlarla yapılan testlerini izleyebi
 - 🚚 **Kamyonet ile Gerçek Zamanlı Test:**  
   [https://www.youtube.com/watch?v=HUh6iXOQYls&t=4s](https://www.youtube.com/watch?v=HUh6iXOQYls&t=4s)
 
-
-  ## 📁 Dosyalara Erişim (Google Drive)
+## 📁 Dosyalara Erişim (Google Drive)
 
 Boyut kısıtlamalarından dolayı aşağıdaki dosyalar GitHub deposuna yüklenememiştir.  
 Bu dosyalara aşağıdaki Google Drive bağlantısı üzerinden erişebilirsiniz:
 
-🔗 [Google Drive – Eğitim Verileri & Model Ağırlıkları](https://drive.google.com/drive/u/0/folders/151BHTIxvO2pjaCyDjF8uPTAG85C1D4DM)
+🔗 [Google Drive – Eğitim Verileri & Model Ağırlıkları](https://drive.google.com/drive/folders/151BHTIxvO2pjaCyDjF8uPTAG85C1D4DM?usp=sharing)
 
-İçerik:
-- `best.pt`: Eğitilmiş YOLOv8 model ağırlığı  
-- `runs/`: Eğitim çıktı klasörü  
-- `dataset/`: Etiketlenmiş veri seti  
-- Diğer büyük boyutlu medya ve proje dosyaları
+**İçerik:**
+- `yolov8n.pt`: Eğitilmemiş temel model dosyası  
+- `train/`, `valid/`, `test/`: Etiketlenmiş veri klasörleri  
+- `runs/`: YOLO eğitim sonuç klasörü
+
 
 
 
